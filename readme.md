@@ -2,7 +2,7 @@
 
 Run com.kubernetestudy.springboot.web.SpringBootFirstWebApplication as a Java Application.
 
-Runs on default port of Spring Boot - 8080 
+Runs on default port of Spring Boot - 8081
 
 ## Can be run as a Jar or a WAR
 
@@ -19,9 +19,10 @@ We will deploy to Docker as a WAR
 
 ## H2 Console
 
-- http://localhost:8080/h2-console
+- http://localhost:8081/h2-console
 - Use `jdbc:h2:mem:testdb` as JDBC URL 
-
+userName:sa
+password
 
 ## Plugins
 
@@ -29,26 +30,6 @@ We will deploy to Docker as a WAR
 
 - https://github.com/spotify/dockerfile-maven
 
-```
-	<plugin>
-		<groupId>com.spotify</groupId>
-		<artifactId>dockerfile-maven-plugin</artifactId>
-		<version>1.4.6</version>
-		<executions>
-			<execution>
-				<id>default</id>
-				<goals>
-					<goal>build</goal>
-				</goals>
-			</execution>
-		</executions>
-		<configuration>
-			<repository>handesagar/${project.name}</repository>
-			<tag>${project.version}</tag>
-			<skipDockerInfo>true</skipDockerInfo>
-		</configuration>
-	</plugin>
-```
 ### JIB
 
 - https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin#quickstart
