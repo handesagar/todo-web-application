@@ -12,7 +12,7 @@ We will deploy to Docker as a WAR
 
 ## Web Application
 
-- http://localhost:8080/login with kubernetestudy/dummy as credentials
+- http://localhost:8081/login with kubernetestudy/dummy as credentials
 - You can add, delete and update your todos
 - Spring Security is used to secure the application
 - `com.kubernetestudy.springboot.web.security.SecurityConfiguration` contains the in memory security credential configuration.

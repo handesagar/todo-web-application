@@ -1,6 +1,6 @@
 insert into TODO
-values(10001, 'MicroServices Architecture', false, sysdate(), 'https://youtu.be/cymV-DIkiHI');
+values(10001, 'MicroServices Architecture', false, sysdate(), 'kubernetesStudy');
 insert into TODO
-values(10002, 'Domain Driven Design', false, sysdate(), 'https://youtu.be/6zPWTIW8s0Q');
+values(10002, 'Domain Driven Design', false, sysdate(), 'kubernetesStudy');
 insert into TODO
-values(10003, 'Docker,Kubernetes', false, sysdate(), 'https://youtu.be/REYjjhX9Yns');
+values(10003, 'Docker,Kubernetes', false, sysdate(), 'kubernetesStudy');
